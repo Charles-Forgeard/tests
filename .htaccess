@@ -2,7 +2,8 @@
     ExpiresActive On
 
     # Images
-    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType image/avif "access plus 6 months"
+    ExpiresByType image/webp "access plus 6 months"
     ExpiresByType image/png "access plus 6 months"
     ExpiresByType image/jpg "access plus 6 months"
 
